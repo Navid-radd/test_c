@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  
+
+}
+
+.left {
+  flex: 35%;
+  padding: 15px 0;
+}
+
+.left h2,
+h5 {
+  padding-left: 8px;
+}
+h3{
+  padding-left: 15px;
+}
+.mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+
+#myMenu {
+  list-style-type: none;
+  padding: 20;
+  margin: 0;
+}
+
+#myMenu li a {
+
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+#panel2,.flip{
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+  padding: 10px;
+  text-align: left;
+  color: white;
+  margin: auto;
+  cursor: pointer;
+}
+.flip:hover{
+ border: #a6d8a8;
+ background-color: #4CAF50;
+}
+#panel2{
+
+  display: none;
+
+}
+.close{
+  position: absolute ;
+  display: flex;
+  justify-content: right;
+  color: white;
+  padding: 1px;
+  border: 1px solid red;
+  background-color: red;
+}
+#panel1,.user{
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  cursor: pointer;
+}
+.user:hover{
+  border: #a6d8a8;
+  background-color: #457ee9;
+ }
+ #panel1 {
+
+  display: none;
+
+}
+#create{
+  display: flex;
+  justify-content: right;
+}
+/* start table */
+.s1{
+  width: 80%;
+}
+.s2{
+  width: 40%;
+}
+#style {
+ margin-left: 50px;
+  border-collapse: collapse;
+  width: 10%;
+  border: 1px solid rgb(151, 9, 9);
+  font-size: 18px;
+}
+
+#style th, #style td {
+  text-align: left;
+  padding: 12px;
+}
+
+#style tr {
+  border-bottom: 1px solid rgb(129, 9, 9);
+}
+
+#style tr.header, #style tr:hover {
+  background-color: #9ef05c;
+}
+/* end table */
+.boxname{
+  left: 300px;
+  margin: 20px;
+  position: absolute;
+  flex-direction: column;
+ 
+ 
+}
+.name-family{
+  display: flex;
+  justify-content: left;
+  margin-left: 35px;
+
+}
+h4{
+  margin: 20px;
+}

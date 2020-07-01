@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+</head>
+<body>
+      <input type="text" id="mySearch" onkeyup="pop()" placeholder="Search.." title="Type in a category">
+    <div class="row">
+        <div class="left" style="background-color:rgb(43, 194, 56);">
+       <div class="ding"> 
+        
+      
+      
+
+ </div>  
+        <h3>Your indstry</h3>
+          <ul id="myMenu">
+            <li><p class="user" onclick="user1()" >Users</p></li>
+            <div id="panel1">
+              <div class="close" onclick="show1()">X</div>
+             <div class="boxname">
+             Fname:     <input type="text" id="fname"/>
+             Lname:     <input type="text" id="lname"/>
+             <button type="button" onclick=create()>submit</button>
+             <button onclick="clearinput()" >Clear input</button>
+             
+             <h3 id="p1">Input Fname & lname</h3>
+            </div>
+           <div class="name-family">
+             <h4>Name</h4>
+             <h4>Family</h4>
+           </div>
+               <table id="style"
+               
+                 <tr class="head">
+                
+                </tr>
+                <tr >
+                  <td>ali </td>
+                  <td>moradi</td>
+                </tr>
+                <tr>
+                  <td>sara </td>
+                  <td>ahmadi</td>
+                </tr> 
+                <tr>
+                  <td>reza </td>
+                  <td>davodi</td>
+                </tr>
+                <tr>
+                  <td>sina</td>
+                  <td>khodadad</td>
+                </tr>
+                <tr>
+                  <td>farzad</td>
+                  <td>imani</td>
+                </tr>
+               </table>
+               
+             </div>
+
+             <li><p class="user" onclick="myFunction()" >Delivery Executives</p></li>
+             <div id="panel2">
+               <div class="close" onclick="show()">X</div>
+                <h4>Delivery Executives</h4>
+                <button id="Create">+ Create</button>
+                
+                <p>Dynamic/moving entily </p>
+                <p>lorem ipsum dolor sit amet.consectetur adipiscing elit. bibendum sogittis duis tristique lobortis masso tirstique saittis viverro mi. sodaless libero in scelerisque in etiam ac , sit </p>
+                <h4>You will learn more about JavaScript in our JavaScript Tutorial.</h4>
+              </div>
+ 
+            <li><a href="#">Restourents</a></li>
+            <li><a href="#">Station/Hubs</a></li>
+            <h3>Others</h3>
+            <li><a href="#">Supports Reps</a></li>
+            <li><a href="#">Buildings</a></li>
+           
+          </ul>
+        </div>
+
+</body>
+<script src="index.js"></script>
+</html>
